@@ -458,6 +458,10 @@ footer
 
 {width: 95%;}
 
+.imagen-4
+
+{height: 220px;}
+
 }
 
 @media (max-width: 390px)
@@ -479,6 +483,10 @@ h1
 #contacto h3 
 
 {font-size: 1em;}
+
+.imagen-4
+
+{height: 200px;}
 
 }
 
@@ -505,5 +513,9 @@ h1
 #contacto h3 
 
 {font-size: 0.8em;}
+
+.imagen-4
+
+{height: 180px;}
 
 }
