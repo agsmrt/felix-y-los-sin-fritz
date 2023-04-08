@@ -345,7 +345,7 @@ text-align: center;}
 
 {width: 100%;
 background-color: black;
-color: white;
+color: var(--color1);
 padding-top: 30px;
 padding-left: 30px;
 padding-right: 30px;
