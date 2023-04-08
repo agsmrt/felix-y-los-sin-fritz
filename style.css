@@ -1,7 +1,7 @@
 :root
 
-{--color1: #E94643;
---color2: #1E171A;}
+{--color1: #8C6542;
+--color2: #0D0C0A;}
 
 *
 
@@ -64,9 +64,9 @@ margin: 30px auto;}
 
 .texto-documental
 
-{background-color: black;
+{border: 1px solid gray;
 font-family: 'Fjalla One', sans-serif;
-color: var(--color1);
+color: #BF6430;
 margin: 0 auto;
 width: 60%;
 padding: 10px;
@@ -136,15 +136,19 @@ background-color: var(--color2);}
 
 #bio p, #bio li
 
-{color: black;}
+{color: white;}
 
 #bio li
 
 {list-style:square;}
 
+#bio h2
+
+{color: #BF6430;}
+
 #bio .container
 
-{background-color: #EEEEEE;
+{background-color: var(--color2);
 display:flex;
 align-items: flex-start;
 justify-content: space-around;
@@ -159,8 +163,8 @@ padding: 10px;}
 
 .musicos
 
-{color: black;
-background-color: #EEEEEE;
+{color: white;
+background-color: var(--color2);
 text-align: center;
 padding: 10px;}
 
@@ -180,8 +184,8 @@ font-weight: normal;;}
 .colaboradores
 
 {text-align: center;
-color: black;
-background-color: #EEEEEE;
+color: white;
+background-color: var(--color2);
 padding: 10px;}
 
 #shows
@@ -189,7 +193,8 @@ padding: 10px;}
 {width: 100%;
 background-color: var(--color2);
 text-align: center;
-padding-top: 30px;}
+padding-top: 40px;
+padding-bottom: 20px;}
 
 #shows .container
 
@@ -214,14 +219,14 @@ font-weight: normal;
 font-size: 1.3em;
 font-family: 'Fjalla One', sans-serif;
 color: black;
-background-color: var(--color1);
+background-color: #BF6430;
 padding: 5px;
 border-radius:5px;}
 
 #shows a:hover
 
 {background-color: black;
-color: var(--color1);}
+color: #BF6430;}
 
 
 .show
@@ -233,6 +238,12 @@ color: var(--color1);}
 {font-family: 'Fjalla One', sans-serif;
 font-weight: normal;
 font-size: 1.2em;}
+
+.show h4
+
+{font-family: 'Fjalla One', sans-serif;
+font-weight: normal;
+font-size: 1.1em;}
 
 #galeria
 
@@ -255,7 +266,7 @@ align-items: center;}
 
 {width: 300px;
 height: 200px;
-border: 1px solid white;
+border: 1px solid gray;
 box-shadow: 2px 2px 10px rgba(0,0,0,0.5);}
 
 .foto:hover
@@ -288,7 +299,7 @@ height: 200px;}
 font-family: 'Fjalla One', sans-serif;
 font-size: 1.3em;
 color: black;
-background-color: var(--color1);
+background-color: #BF6430;
 padding: 15px;
 font-weight: normal;
 border-radius: 5px;
@@ -298,14 +309,15 @@ width: 130px;
 
 #videoclips a:hover
 
-{color: var(--color1);
+{color: #BF6430;
 background-color: black;}
 
 #discos
 
 {background-color: var(--color2);
-padding-top: 30px;
-width: 100%;}
+padding-top: 40px;
+width: 100%;
+padding-bottom: 30px;}
 
 #discos h1 
 
@@ -337,20 +349,19 @@ font-size: 1.1em;}
 
 #contacto
 
-{background-color: var(--color2);
+{border-top: 1px solid gray;
+background-color: var(--color2);
 padding-top: 30px;
 text-align: center;}
 
 #contacto .container
 
 {width: 100%;
-background-color: black;
-color: var(--color1);
+color: #BF6430;
 padding-top: 30px;
 padding-left: 30px;
 padding-right: 30px;
-padding-bottom: 50px;
-margin-bottom: 30px;}
+padding-bottom: 50px;}
 
 #contacto h1
 
@@ -361,6 +372,10 @@ margin-bottom: 30px;}
 {font-family: 'Fjalla One', sans-serif;
 font-weight: normal;
 font-size: 1.4em;}
+
+.white
+
+{color: white;}
 
 footer
 
