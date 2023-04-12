@@ -423,6 +423,22 @@ cursor: pointer;}
 
 {color: white;}
 
+.web
+
+
+{width: 60px;
+padding: 0 10px;}
+
+.web-logo
+
+{display: flex;
+align-items: center;
+color: white;
+font-size: 0.8em;
+padding: 20px;
+width: 100%;
+justify-content: flex-end;}
+
 footer
 
 {background-color: var(--color1);;
@@ -555,6 +571,8 @@ footer {justify-content: center;}
 @media (max-width: 640px)
 
 {
+
+.web-logo {display: none;}
 
 .texto-documental
 
