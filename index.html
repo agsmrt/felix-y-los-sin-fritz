@@ -80,6 +80,7 @@
 <section id="shows">
 <h1>PRÓXIMOS SHOWS</h1>
 <div class="container">
+<h2>Próximamente...</h2>
 <div class="show">
 <h3>fecha</h3>
 <h4>Ciudad, País<br>Evento</h4>
@@ -167,25 +168,29 @@
 <section id="contacto">
 <h1>CONTACTO</h1>
 <div class="container">
-<h3>Gmail:</h3>
-<h3 class="white">felixylossinfritz@gmail.com</h3>
-<h3>Manager Victoria Bosso:</h3>
-<h3 class="white">contactovickybosso@gmail.com</h3></div>
+<h3>Completa el formulario y en breve nos pondremos en contacto.</h3>
+<br>
+<form id="formulario" action="https://formsubmit.co/agustinmartinez1022@gmail.com" method="POST">
+<input type="hidden" name="_cc" value="felixylossinfritz@gmail.com,contactovickybosso@gmail.com">
+<label for="nombre">Nombre y apellido: </label><br><br><input type="text" id="name" name="nombre" placeholder="Nombre y apellido" required>
+<br><br><label for="mail">Email: </label><br><br><input type="email" id="mail" name="mail" placeholder="Email" required>
+<br><br><label for="telefono">Teléfono: </label><br><br><input type="tel" id="telefono" name="telefono" placeholder="Número" required>
+<br><br><label for="msj">Mensaje: </label><br><br><textarea placeholder="Escribe tu mensaje" rows="10" id="msj" name="msj" required></textarea>
+<br><br><input type="submit" id="envio" value="ENVIAR">
+</form>
+</div>
 </section>
 <div class="imagen-5"></div>
 </main>
 <footer>
-<ul class="nav">
-<li><a href="#">☰ MENU</a>
-<ul>
-<li><a href="#inicio">INICIO</a></li>
-<li><a href="#bio">BIO</a></li>
-<li><a href="#shows">SHOWS</a></li>
-<li><a href="#galeria">GALERIA</a></li>
-<li><a href="#videoclips">VIDEOCLIPS</a></li>
-<li><a href="#discos">DISCOS</a></li>
-<li><a href="#contacto">CONTACTO</a></li>
-</ul></li></ul>
+<div class="nav">
+<a href="#inicio">INICIO</a>
+<a href="#bio">BIO</a>
+<a href="#shows">SHOWS</a>
+<a href="#galeria">GALERIA</a>
+<a href="#videoclips">VIDEOCLIPS</a>
+<a href="#discos">DISCOS</a>
+<a href="#contacto">CONTACTO</a></div>
 <div class="redes">
 <a target="_blank" href="https://www.instagram.com/felixylossinfritz/"><div class="red-social ig"></div></a>
 <a target="_blank" href="https://www.facebook.com/FelixYLosSinFritz"><div class="red-social fb"></div></a>
@@ -193,5 +198,10 @@
 <a target="_blank" href="https://www.youtube.com/@FelixylossinFritz"><div class="red-social yt"></div></a>
 </div>
 </footer>
+<!--Bloquear click derecho-->
+<script type='text/javascript'>
+document.oncontextmenu = function(){return false}
+</script>
+<!--Fin del script-->
 </body>
 </html>
