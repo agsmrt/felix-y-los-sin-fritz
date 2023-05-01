@@ -1,45 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- created with sitemap-gen https://sitemap-gen.com/ -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#inicio</loc>
-  <lastmod>2023-05-02</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#bio</loc>
-  <lastmod>2023-05-02</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#shows</loc>
-  <lastmod>2023-05-01</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#galeria</loc>
-  <lastmod>2023-05-01</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#videoclips</loc>
-  <lastmod>2023-05-02</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#discos</loc>
-  <lastmod>2023-05-01</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://felixylossinfritz.netlify.app/#contacto</loc>
-  <lastmod>2023-05-01</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f1.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f2.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f3.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f4.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f5.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f6.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f7.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://felixylossinfritz.netlify.app/media/f8.jpg</loc>
+		<lastmod>2023-05-01T16:26:32.0585177+02:00</lastmod>
+	</url>
 </urlset>
