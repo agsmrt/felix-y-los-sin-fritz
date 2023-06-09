@@ -15,7 +15,7 @@ html
 body
 
 {font-family: sans-serif;
-background-color: black;;
+background-color: black;
 font-weight: normal;}
 
 header
@@ -245,7 +245,8 @@ padding-bottom: 15px;}
 
 {font-family: 'Fjalla One', sans-serif;
 font-weight: normal;
-font-size: 1.2em;}
+font-size: 1.2em;
+color: #BF6430;}
 
 .show h4
 
